@@ -16,11 +16,11 @@ The basic design will be an inventory system where games can be sorted by publis
 * Create publisher (For one-to-many relation)
 * Delete publisher (Deletes all games by publisher followed by publisher)
 * Create game with publisher (New item in inventory)
+* Restock game (Increase stock levels)
+* Delete game from inventory
 * Buy game (Stock exists, reduce stock)
 * Buy game (No stock, throws appropriate error messages)
-* Restock game (Increase stock levels)
 * Find game by publisher name
-* Delete game from inventory
 
 ### Non-relational Database Project
 
